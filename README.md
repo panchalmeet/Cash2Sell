@@ -1,7 +1,7 @@
 # **Cash2Sell**  
 
 ## **Overview**  
-**Cash2Sell** is a web-based platform designed to facilitate buying and selling of products with ease. Built using modern web technologies, it provides a seamless experience for users to list, browse, and purchase items securely.  
+**Cash2Sell** is a web platform built with Laravel and GraphQL API, designed to facilitate the buying and selling of products. It provides a seamless experience for users to create, manage, and browse product listings.
 
 ## **Features**  
 ✅ User authentication and authorization (Register/Login)  
@@ -11,32 +11,23 @@
 ✅ Search and filter functionality for easy browsing  
 ✅ Dashboard for managing user listings  
 
-## **Tech Stack**  
-### **Frontend:**  
-- React.js  
-- Redux (State Management)  
-- Tailwind CSS (Styling)  
+## Tech Stack
+- **Frontend**: Laravel Blade for views
+- **Backend**: Laravel, GraphQL API
+- **Database**: MySQL
+- **Authentication**: JWT
+- **Payment Integration**: Stripe/PayPal
 
-### **Backend:**  
-- Node.js  
-- Express.js  
-- MongoDB (Mongoose ORM)  
+## Setup Instructions
 
-### **Other Tools:**  
-- JWT (JSON Web Token for authentication)  
-- Cloudinary (For image uploads)  
-- Stripe/PayPal (For payment processing)  
-- RESTful APIs  
+1. Clone the repository.
+2. Run `composer install` to install dependencies.
+3. Copy `.env.example` to `.env` and configure database and environment variables.
+4. Run migrations with `php artisan migrate`.
+5. Serve the application with `php artisan serve`.
 
-## **Contributing**  
-Contributions are welcome! Please follow these steps:  
-1. Fork the repository  
-2. Create a new feature branch (`git checkout -b feature-branch`)  
-3. Commit your changes (`git commit -m "Added new feature"`)  
-4. Push to the branch (`git push origin feature-branch`)  
-5. Open a Pull Request  
+## Contributing
+Contributions are welcome! Please fork the repository and submit pull requests.
 
-## **License**  
-This project is licensed under the **MIT License**.  
-
----
+## License
+MIT License
